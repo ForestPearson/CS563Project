@@ -9,3 +9,7 @@ This is a personal website devloped in PSUs CS 463/563 course to be a profession
 ## Build Instructions
 
 Clone available files and run index.html either by itself or on liveserver.
+
+## Outside libraries/frameworks
+
+- Bootstrap
