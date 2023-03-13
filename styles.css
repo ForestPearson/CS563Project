@@ -24,7 +24,7 @@
   background-color: #189AB4;
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: #D4F1F4;
+  color: white;
 }
 .navbar-dark .navbar-toggler{
   border-color: #05445E;
@@ -37,10 +37,13 @@
 .card-body{
   background-color:#189AB4;
   border-color: #189AB4;
-  color:#D4F1F4;
+  color:white;
 }
 .text-custom{
   color: #D4F1F4;
+}
+.text-custom-contrast{
+  color: white;
 }
 .text-content{
   color: #D4F1F4;
