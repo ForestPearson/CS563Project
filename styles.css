@@ -14,7 +14,18 @@ p::first-line {
   font-weight: bold;
 }
 
-
+.body-class {
+  background-color: #05445E;
+}
+.navbar-custom{
+  background-color: #189AB4;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #D4F1F4;
+}
+.navbar-dark .navbar-toggler{
+  border-color: #05445E;
+}
 @media only screen and (min-width: 990px){
 .navbar-nav {
   flex-direction: row;
