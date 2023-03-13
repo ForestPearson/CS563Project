@@ -48,6 +48,20 @@
 .text-content{
   color: #D4F1F4;
 }
+.form-container{
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  border-style: inset;
+  border-radius: 10px;
+  padding: 15px;
+  background-color:#189AB4;
+  color:white;
+}
+.icon{
+  font-size:50px;
+}
 @media only screen and (max-width: 497px){
 .photo{
   border-radius: 5%;
