@@ -7,14 +7,13 @@
 .photo {
   border-radius: 5%;
   border-style: inset;
+  margin-left: auto;
+  margin-right: auto;
 }
 .photo-container{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-}
-.text-content::first-line {
-  font-weight: bold;
 }
 
 .body-class {
@@ -30,11 +29,21 @@
   border-color: #05445E;
 }
 .navbar {
+  padding: 0px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
   position: fixed;
   top: 0;
   width: 100%;
 }
+.nav-item:hover{
+  border-radius: 10%;
+  background-color: #145DA0;
+  color: white;
+}
 .card-body{
+  text-align: center;
   background-color:#189AB4;
   border-color: #189AB4;
   color:white;
@@ -42,11 +51,26 @@
 .text-custom{
   color: #D4F1F4;
 }
+.text-resume{
+  color: white;
+}
 .text-custom-contrast{
   color: white;
 }
 .text-content{
-  color: #D4F1F4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #189AB4;
+  border-radius: 5%;
+  font-size: 20px;
+  border-style: inset;
+  color: white;
+}
+.resume{
+  background-color: #189AB4;
+  border-radius: 5%;
+  border-style: inset;
+  padding-bottom: 20px;
 }
 .form-container{
   max-width: 400px;
@@ -59,12 +83,15 @@
   background-color:#189AB4;
   color:white;
 }
+.work-projects{
+  padding-left: 15%;
+  padding-right: 15%;
+}
 .icon{
   font-size:50px;
 }
 @media only screen and (max-width: 497px){
 .photo{
-  border-radius: 5%;
   width: 90%;
   height: 90%;
 }
@@ -83,4 +110,9 @@
   display: flex;
   margin: 5px;
   padding: 2.5px;
+}
+@media only screen and (max-width: 990px){
+.nav-item:hover{
+
+}
 }
